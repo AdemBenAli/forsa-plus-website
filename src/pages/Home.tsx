@@ -12,9 +12,13 @@ function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              Forsa +
-            </h1>
+            <div className="mb-8">
+              <img 
+                src="/forsa-logo.png" 
+                alt="Forsa +" 
+                className="w-64 sm:w-80 lg:w-96 h-auto"
+              />
+            </div>
             <p className="text-xl sm:text-2xl text-gray-700 mb-8 leading-relaxed">
               Empowering Tunisia's Youth to Build Tomorrow's Economy
             </p>
